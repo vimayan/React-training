@@ -1,0 +1,114 @@
+
+
+
+.logoser{
+    display: flex;
+    gap: 8px;
+    }
+    .search{
+       background-color: var(--inputColor); 
+       border-radius: 10px;
+       padding: 5px;
+    }
+    .search>input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .ProfileCard{
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        top:20px;
+        overflow: hidden;
+        background-color: aliceblue;
+
+        
+    }
+    .ProfileCard>img:nth-child(1){
+        width:100%;
+
+    }
+    .ProfileCard>img:nth-child(2){
+        width:80px;
+        border-radius: 50%;
+        position: absolute;
+        top:65px ;
+        box-shadow: var(--profileShadow);
+
+        
+    }
+
+    .profileName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        gap: 1.5px;
+    }
+    .profileName>span:nth-child(1){
+     font-weight: bold;  
+     font-size: 15px; 
+    }
+
+    .following{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+
+    }
+    .following>hr{
+        width: 100%;
+        border: .5px solid black;
+
+    }
+
+    .following>div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 25px;
+
+    }
+    .follow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .follow>span:nth-child(1){
+        font-weight: bold;
+        font-size: 13px;
+
+    }
+    .follow>span:nth-child(2){
+        color:grey;
+        font-size: 13px;
+
+    }
+    /*
+    .vl{
+ height:150%;
+border-left: .5px solid black;
+    }
+       */
+    
+       .following>span{
+        font-weight: bold;
+        color: orange;
+        align-items: center;
+        margin-bottom: 10px;
+       }
+
+
+
+
+
