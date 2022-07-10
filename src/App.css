@@ -19,7 +19,7 @@
   overflow: hidden;
   color: var(--black);
   background-color:#cfcdcd;
-height:600px;
+
   padding: 1rem 1rem ;
 }
 .blur{
@@ -31,7 +31,15 @@ height:600px;
   background-color:blue ;
   filter: blur(72px);
 }
-
+button{
+display: flex;
+ border: none;
+ color: white;
+ border-radius: 6px;
+ background: var(--buttonBg);
+ transition:all 100ms ease-out ;
+  
+}
 /*
 .App {
   text-align: center;

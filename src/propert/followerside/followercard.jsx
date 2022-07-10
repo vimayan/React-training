@@ -7,17 +7,18 @@ return (
 <div  className="FollowerCard">
     <h3> who is following</h3>
     {followers.map((follower,id)=>{return (
-        <div className="followers"> 
-            <img src={follower.img} alt="shit"  className="followerImage"/>
+    <div className="followers"> 
             <div>
+            <img src={follower.img} alt="shit"  className="followerImage"/>
+            <div className="name">
                 <span>{follower.name}</span>
-                <span>{follower.username}</span>
+                <span >@{follower.username}</span>
+            </div> 
             </div>
             <button>Follow</button>
-            </div>
+    </div>
     )})}
 </div>
-
 
 );
 

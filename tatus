@@ -1,0 +1,11 @@
+[33mcommit b1de5fa9cdf9f0bbc46d0c0430cb4b15c8d5c960[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: vimayan <joblessdesks@gmail.com>
+Date:   Sun Jul 10 11:16:40 2022 +0530
+
+    secod commit
+
+[33mcommit 34826eb0939bbc3148196358e16bb0d2911f3f7a[m
+Author: vimayan <joblessdesks@gmail.com>
+Date:   Sat Jul 9 20:42:41 2022 +0530
+
+    Initialize project using Create React App
